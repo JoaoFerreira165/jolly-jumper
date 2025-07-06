@@ -111,7 +111,7 @@ var playState = function(game){
             else
                 game.global.jumpSound.stop();
 
-            this.jolly.player.body.velocity.y -= this.rnd.integerInRange(480,600);
+            this.jolly.player.body.velocity.y -= this.rnd.integerInRange(300,400);
 
         },
 
